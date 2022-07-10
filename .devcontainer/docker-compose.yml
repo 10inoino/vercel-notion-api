@@ -1,0 +1,4 @@
+version: "3.9"
+services:
+  vercel-notion-api:
+    command: sleep infinity
