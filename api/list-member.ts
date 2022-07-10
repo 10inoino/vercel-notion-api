@@ -11,5 +11,5 @@ export default async function handler(request, response) {
   });
 
   const data = await res.json();
-  return response.status(200).json({ data });
+      return response.status(200).headers({'Access-Control-Allow-Origin':'http://localhost:3000'}).json({ data });
 }
